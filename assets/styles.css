@@ -1,0 +1,354 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #172854;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header img{
+    display: inline-block;
+    width: 40px;
+    margin-right: 10px;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 19px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: rgb(175, 173, 173);
+    text-decoration: none;
+    transition: color 0.5s;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+    
+main {
+    padding: 2rem;
+    background: #fff;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex: 1; /
+}
+
+
+.escocia-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+    width: 500px;
+    height: auto;    
+}
+
+.tourist-image {
+    display: block;
+    margin: 0 auto; 
+    width: 90%; 
+    max-width: 600px; 
+    height: auto
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto; 
+    width: 550px; 
+    max-width: 600px; 
+    height: 550px;
+}
+
+footer {
+    background-color: #172854;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+.container {
+    background-color: #003366; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+    color: white; 
+    margin: 0 auto; 
+}
+
+img {
+    display: block; 
+    width: 40px;
+    margin: 1rem auto; 
+    padding: 1rem 0;
+}
+
+
+.container h2 {
+    color: #ffffff; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff; /* Branco */
+}
+
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #fff; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #c8c8c8; 
+    color:#007b;
+    font-size: 16px;
+}
+
+
+button[type="submit"] {
+    background-color: #0096D6; 
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #007bb5;
+}
+
+
+#mensagem {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+.links a:hover {
+    text-decoration: underline; 
+    color: #007bb5; 
+}
+
+
+.menu-horizontal > li > a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+  }
+
+  .bg-black{
+    margin: 0;
+    background-color: black;
+    padding: 60px 0px;
+  }
+  .separacao{
+    display: flex;
+    text-align: center;
+  }
+  .oi {
+    width: 200px;
+    height: 200px; 
+    transition: transform 0.3s ease; 
+}
+
+
+
+  .oi:hover{
+    zoom: 1.1;
+    width: 80%;  
+    height: auto;  
+}
+
+
+
+
+button {
+    background-color: #006AA7; 
+    color: white; 
+    padding: 12px 25px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    display: inline-block; 
+    margin-top: 10px; 
+    text-align: center; 
+}
+
+
+button:hover {
+    background-color: #005B8D; 
+    transform: scale(1.05); 
+}
+
+
+button:disabled {
+    background-color: #A9A9A9;
+    cursor: not-allowed; 
+}
+
+
+p, h3, h2 {
+    font-size: 16px; 
+}
+
+
+section {
+    text-align: left; 
+}
+
+.toggle-info {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #006AA7; 
+    color: white; 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center; 
+}
+
+
+.toggle-info:hover {
+    background-color: #005B8D; 
+    transform: scale(1.05); 
+}
+
+
+.info {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f4f4f4; 
+    border-radius: 5px; 
+}
+
+
+
+
+/* Estilo da galeria de imagens */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 imagens por linha */
+    gap: 16px;
+    margin-top: 20px;
+}
+
+/* Definindo o tamanho fixo para as imagens */
+.gallery img {
+    width: 100%;  /* As imagens ocupam 100% da largura disponível da célula */
+    height: 200px;  /* Definindo uma altura fixa */
+    object-fit: cover; /* Garantindo que a imagem se ajuste ao tamanho sem distorcer */
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(2.05); /* Efeito de zoom ao passar o mouse */
+}
+
+
+/* Estilo do modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro para dar destaque à imagem */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90%;     /* Imagem pode ocupar até 90% da largura da tela */
+    max-height: 90%;    /* Imagem pode ocupar até 90% da altura da tela */
+    object-fit: contain; /* Garante que a imagem não será cortada ou distorcida */
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Efeito de transição suave ao abrir */
+}
+
+/* Estilo para o botão de fechar */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}

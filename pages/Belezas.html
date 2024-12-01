@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belezas Naturais</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="shortcut icon" href="../assets/img/escocia.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="../assets/img/Flag_of_Scotland.svg" alt="Bandeira da Escócia">
+        <h1>Belezas Naturais</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Introdução</a> </li>
+                <li><a href="..pages/Belezas.html">Belezas Naturais</a></li>
+                <li><a href="../pages/Turismo.html">Dicas de Turismo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Pontos Turísticos</h2>
+
+            <article>
+                <h3>Ben Nevis</h3>
+                <img src="../assets/img/Ben-Nevis-Grampian-Mountains-Scot.webp" alt="Vista do Ben Nevis"
+                    class="tourist-image">
+                <button onclick="toggleInfo('infoBenNevis')">Mostrar/Ocultar mais informações</button>
+                <div id="infoBenNevis" style="display:none;">
+                    <p>
+                        O Ben Nevis é a montanha mais alta das Ilhas Britânicas, com uma altura impressionante de 1.345
+                        metros. Localizado nas Terras Altas escocesas, perto da cidade de Fort William, este gigante
+                        atrai aventureiros, alpinistas e amantes da natureza em busca de paisagens espetaculares e
+                        desafiadoras.
+                    </p>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8739.443852731882!2d-5.013850228359609!3d56.79685617581338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488932978af1e5f3%3A0x6e948b77ffad9a71!2sBen%20Nevis!5e0!3m2!1spt-BR!2sbr!4v1727460553827!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+
+
+            <article>
+                <h3>Lago Ness (Loch Ness)</h3>
+                <img src="../assets/img/The-Natural-Wonders-of-Scotland-From-Ben-Nevis-to-Loch-Ness.jpg"
+                    alt="Vista do Lago Ness com castelo ao fundo" class="tourist-image">
+                <button onclick="toggleInfo('infoLagoNess')">Mostrar/Ocultar mais informações</button>
+                <div id="infoLagoNess" style="display:none;">
+                    <p>
+                        Famoso mundialmente pela lenda do monstro "Nessie", o Lago Ness é um dos corpos d'água mais
+                        profundos e misteriosos da Escócia.
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d276104.08349495364!2d-5.092454631997077!3d57.27265021548484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488f16c34da23729%3A0xd4d749cbf4fe912f!2sLago%20Ness!5e0!3m2!1spt-BR!2sbr!4v1727461102131!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+
+
+            <article>
+                <h3>Parque Nacional Cairngorms</h3>
+                <img src="../assets/img/ScreenShot2021-04-06at1.07.22PM-ac07dd665911459ba3056194d057d5c5.webp"
+                    alt="Paisagem do Parque Nacional Cairngorms" class="tourist-image">
+                <button onclick="toggleInfo('infoCairngorms')">Mostrar/Ocultar mais informações</button>
+                <div id="infoCairngorms" style="display:none;">
+                    <p>
+                        O Parque Nacional Cairngorms é o maior parque nacional do Reino Unido, abrangendo uma vasta área
+                        de montanhas, florestas antigas, rios e lagos.
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.91687579211!2d-3.5644904304312828!3d57.04900014670014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4885f016397fbcc9%3A0xceaa2fb994f58b34!2sCairngorms%20National%20Park!5e0!3m2!1spt-BR!2sbr!4v1727461052212!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="../assets/Beleza.js"></script>
+
+    <footer>
+        <p>&copy; 2024 País Maravilhoso. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

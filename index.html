@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo à Escócia</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="shortcut icon" href="../assets/img/escocia.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <img src="assets/img/Flag_of_Scotland.svg" alt="">
+        <h1>Bem-vindo à Escócia</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Introdução</a></li>
+                <li><a href="pages/Belezas.html">Belezas Naturais</a></li>
+                <li><a href="pages/Turismo.html">Dicas de Turismo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <img src="assets/img/HTB1rNgianjxK1Rjy0Fnq6yBaFXat.avif" alt="Paisagem da Escócia" class="escocia-image">
+
+        <section>
+            <h2>Introdução</h2>
+            <p>
+                A Escócia, situada ao norte do Reino Unido, é conhecida por suas paisagens deslumbrantes e sua rica
+                herança cultural. Repleta de montanhas majestosas, lagos cristalinos e vastas regiões selvagens, a
+                Escócia encanta turistas do mundo inteiro. As Terras Altas, em particular, são um símbolo de sua beleza
+                natural, com picos dramáticos como o Ben Nevis e vales profundos como o Glencoe. Além disso, os lagos,
+                como o famoso Loch Ness, alimentam o imaginário popular com histórias e lendas misteriosas.
+            </p>
+            <p>
+                Com uma diversidade ecológica notável, a Escócia abriga uma rica fauna, que inclui águias douradas,
+                lontras e veados. As ilhas escocesas, como as Hébridas e as Orkney, são santuários de vida selvagem e um
+                paraíso para exploradores e amantes da natureza. Além disso, o país valoriza profundamente a preservação
+                ambiental, com várias áreas protegidas que ajudam a manter sua beleza intocada.
+            </p>
+            <p>
+                Além de suas belezas naturais, a Escócia é famosa por sua rica herança cultural, refletida em seus
+                festivais, música tradicional e, claro, o famoso kilt e a gaita de foles. Cidades históricas como
+                Edimburgo e Glasgow também contrastam com as áreas rurais, oferecendo uma combinação perfeita entre
+                modernidade e tradição. Seja para explorar os castelos medievais, as paisagens selvagens ou descobrir
+                lendas e mitos, a Escócia é um destino que oferece uma experiência única e inesquecível.A Escócia é, sem
+                dúvida, um destino imperdível para aqueles que buscam paisagens dramáticas,
+                tranquilidade e uma conexão com a natureza.
+            </p>
+
+
+            <div class="gallery">
+                <img src="assets/img/lugares-conhecer-na-escocia-1-730x486.jpg" alt="Paisagem 1"
+                    onclick="openModal(this)">
+                <img src="assets/img/lugares-conhecer-na-escocia-4-730x400.jpg" alt="Paisagem 2"
+                    onclick="openModal(this)">
+                <img src="assets/img/lugares-conhecer-na-escocia-14-730x486.jpg" alt="Paisagem 3"
+                    onclick="openModal(this)">
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Escócia Maravilhosa. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+
+    <script src="assets/scripts.js"></script>
+</body>
+
+</html>
